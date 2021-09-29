@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+#ID-Menu a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#ID-Menu a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+h1 {
+  font-family: 'Itim', cursive;
+  margin-left: 120px;
+  margin-top: 0;
+  font-size: 255%;
+}
+p {
+  font-family: 'Itim', cursive;
+  margin-left: 120px;
+  margin-top: 0;
+  font-size: 255%;
+}
+
+/* The about link: 20px from the top with a green background */
+#glowna {
+  top: 10px;
+  background-color: #04AA6D;
+  font-family: 'Itim', cursive;
+}
+
+#caly-ja {
+  top: 100px;
+  background-color: #2196F3; /* Blue */
+  font-family: 'Itim', cursive;
+}
+
+#cos {
+  top: 160px;
+  background-color: #f44336; /* Red */
+  font-family: 'Itim', cursive;
+}
+
+#cos-1 {
+  top: 220px;
+  background-color: #555; /* Light Black */
+  font-family: 'Itim', cursive;
+}
